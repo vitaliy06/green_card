@@ -1,0 +1,85 @@
+
+
+
+
+.container {
+position: relative;
+text-align: center;
+max-width: 1920px;
+
+}
+.container img {
+position: absolute;
+margin-left: -960px;
+margin-top: -10px;
+width: 1920px;
+height: 820px;
+letter-spacing: ;
+filter: brightness(50%)
+
+    
+    
+}
+.container h1{
+color: #fff;
+position: relative;
+margin: 0 auto;
+font-family: Arial;
+font-size: 70px;
+padding-top: 400px;
+text-align: center;
+letter-spacing: 3px;
+
+
+}
+
+.container p{
+    color:#fff;
+    position: relative;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 30px;
+    
+    
+}
+
+body {
+    padding-left: 100x;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: px;
+    max-height: 4000px;
+    max-width: 1920px;
+}
+
+
+
+
+
+
+/*Плавное появление текста в див(block)*/
+.block {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    background-color: #eee;
+    
+}
+.block .text {
+    opacity: 0;
+}
+
+.block:hover {
+    background-color: #bbb;
+    transition: 0.5s all;
+}
+
+.block:hover .text {
+    transition: 0.5s all;
+    opacity: 1;
+}
